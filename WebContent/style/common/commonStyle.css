@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+.common_bg {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.common-nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	padding: 20px 0;
+	z-index: 1001;
+}
+
+.common-rowContent {
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.common-logo {
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.common-logo a {
+	padding: 5px 40px;
+	color: #fff;
+}
+
+.common-logo a img {
+	width: 40px;
+	height: 40px;
+	margin-right: 20px;
+	border-radius: 10px;
+}
+
+.common-logo a em {
+	color: #f54c53;
+}
+
+.common-footer {
+	height: 30px;
+	width: 100%;
+	background-color: BLACK;
+	position: fixed;
+	bottom: 0;
+}
+
+.common_main {
+	width: 100%;
+	height: 100%;
+	background: url(../../images/login.jpg) no-repeat center fixed;
+	background-size: 100%;
+	background-position: center;
+	matgin: 0px;
+	padding: 0px;
+}
+
+.common_main .overlay {
+	z-index: 1;
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.5);
+}
+.common_main > .common_main_container {
+  position: relative;
+  z-index: 10;
+}
+.common_main_container {
+	width: 90%;
+	height: 100%;
+	margin: auto;
+	padding-top: 5%;
+}
+
+.cp_login_main {
+	width: 100%;
+	height: 90%;
+/* 	background-color: red; */
+}
+
+.cp_login_left{
+	padding-top:12%;
+	padding-left:5%;
+	height:100%;
+}
+.cp_login_left span {
+	font-size: 14px;
+	text-transform: uppercase;
+	color: rgba(255, 255, 255, 0.5);
+	letter-spacing: .15em;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.cp_login_left h1 {
+	margin: 0;
+	padding: 0;
+	color: white;
+	margin-bottom: 10px;
+	font-size: 59px;
+	line-height: 1;
+	font-weight: 300;
+}
+
+.cp_login_left h2 {
+	margin: 0;
+	padding: 0;
+	color: white;
+	margin-bottom: 0px;
+	font-size: 30px;
+	line-height: 1;
+	font-weight: 200;
+}
